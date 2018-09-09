@@ -4,15 +4,12 @@ import javax.sound.midi.Soundbank;
 
 public class Proxy implements Rent{
     private Host host;
-
     public Proxy(Host host) {
         this.host = host;
     }
-
     public void setHost(Host host) {
         this.host = host;
     }
-
     @Override
     public void rent(){
         seeHouse();
