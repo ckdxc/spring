@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- bean 就是java对象  由spring 来创建和管理-->
+    <bean id="userDao" class="cn.xc.daoimpl.UserDaoMySqlImpl"></bean>
+    <!-- autowiring 自动装配 简化 spring 配置(可以在头文件 设置default-autowiring)
+        no 不使用自动装配.
+        byName 根据名称(set方法名 去掉set)去查找相应的 bean, 如果有则装配上 id="userDao" setUser
+        byType 根据类型 进行自动装配 不用管 bean 的id,但是同一种类型的 bean 只能有一个,建议慎用.
+        constructor 当通过构造器实例化 bean 时, 可以使用byType, 装配构造方法
+    -->
+    <bean id="service" class="cn.xc.serviceimpl.UserServiceImpl" autowire="byName">
+    </bean>
+</beans>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- bean 的作用域( 默认是 singleton 单例)
+    singleton 单例 整个容器中只有一个对象实例
+    prototype 原型 每次获取bean都产生一个新的对象
+    request 每次请求时创建一个新的对象
+    session 在会话的范围内时一个对象
+    global session 只在 portlet 下有用,表示是 application
+    application 在应用范围中一个对象
+    -->
+    <bean id="address" class="cn.xc.vo.Address">
+        <property name="address" value="中国"></property>
+    </bean>
+    <bean id="student" class="cn.xc.vo.Student">
+        <property name="name" value="ckdxc"></property>
+        <property name="address" ref="address"></property>
+        <property name="books">
+            <array>
+                <value>中国地图一</value>
+                <value>中国地图二</value>
+                <value>中国地图三</value>
+            </array>
+        </property>
+        <property name="habbies">
+            <list>
+                <value>电脑</value>
+                <value>乒乓球</value>
+            </list>
+        </property>
+        <property name="cards">
+            <map>
+                <entry key="饭卡" value="505451"></entry>
+                <entry key="公交卡" value="502454547851"></entry>
+            </map>
+        </property>
+        <property name="games">
+            <set>
+                <value>英雄联盟</value>
+                <value>csgo</value>
+            </set>
+        </property>
+        <property name="wife">
+            <null></null>
+        </property>
+        <property name="info">
+            <props>
+                <prop key="age">21</prop>
+                <prop key="sex">man</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

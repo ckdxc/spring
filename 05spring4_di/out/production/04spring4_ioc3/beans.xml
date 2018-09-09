@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="address" class="cn.xc.vo.Address">
+        <property name="address" value="中国"></property>
+    </bean>
+    <bean id="student" class="cn.xc.vo.Student">
+        <property name="name" value="ckdxc"></property>
+        <property name="address" ref="address"></property>
+        <property name="books">
+            <array>
+                <value>中国地图一</value>
+                <value>中国地图二</value>
+                <value>中国地图三</value>
+            </array>
+        </property>
+        <property name="habbies">
+            <list>
+                <value>电脑</value>
+                <value>乒乓球</value>
+            </list>
+        </property>
+        <property name="cards">
+            <map>
+                <entry key="饭卡" value="505451"></entry>
+                <entry key="公交卡" value="502454547851"></entry>
+            </map>
+        </property>
+        <property name="games">
+            <set>
+                <value>英雄联盟</value>
+                <value>csgo</value>
+            </set>
+        </property>
+    </bean>
+</beans>

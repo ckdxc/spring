@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- bean 就是java对象  由spring 来创建和管理-->
+    <bean id="uuserDao" class="cn.xc.daoimpl.UserDaoMySqlImpl"></bean>
+    <!-- autowiring 自动装配 简化 spring 配置
+        byName 根据名称(set方法名 去掉set  )去查找相应的 bean, 如果有则装配上-->
+    <bean id="service" class="cn.xc.serviceimpl.UserServiceImpl" autowire="byName">
+    </bean>
+</beans>

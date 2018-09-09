@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- bean 就是java对象  由spring 来创建和管理-->
+        <!-- ref 引用对象(对象是由 spring 来创建的)-->
+    <bean id="userFactory" class="cn.xc.factory.UserDynamicFactory"/>
+    <!-- id 是 bean 的标识符 要唯一 如果没有配置 id , name默认标识符
+         如果配置了 id ,又配置了 name,那么 name 就是别名
+         name 可以设置多个别名 分隔符 可以是 空格 ,
+         class 是 bean 的全限定名 = 包名 + 类名
+         如果不配置 id 和 name,那么可以根据applicationContext.getBean(Class)
+    -->
+    <bean id="user" name="user2 user3" class="cn.xc.factory.UserFactory" factory-method="newInstance">
+        <constructor-arg index="0" value="factory"></constructor-arg>
+    </bean>
+
+    <import resource="entity.xml"></import>
+    <!-- 设置别名 -->
+    <alias name="user" alias="user1"></alias>
+</beans>
