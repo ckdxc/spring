@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d9409d-8db0-45a2-938d-7859d8981a34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../08spring4_dunamicproxy/08spring4_dunamicproxy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08spring4_dunamicproxy/src/cn/xc/dynamicproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08spring4_dunamicproxy/src/cn/xc/dynamicproxy/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08spring4_dunamicproxy/src/cn/xc/dynamicproxy/ProxyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08spring4_dunamicproxy/src/cn/xc/dynamicproxy/Rent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08spring4_dunamicproxy/src/cn/xc/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08spring4_dunamicproxy/src/cn/xc/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/xc/staticproxy/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/xc/staticproxy/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08spring4_dunamicproxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08spring4_dunamicproxy/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,9 +16,11 @@
     <session id="1261916015">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -83,12 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/xc/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="598">
               <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -96,12 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/xc/service/UserServiceProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -150,6 +136,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,15 +174,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536498914692" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536501164667" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.gitignore" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -260,28 +246,28 @@
       <option name="presentableId" value="Default" />
       <updated>1536413582108</updated>
       <workItem from="1536413586056" duration="2015000" />
-      <workItem from="1536458555669" duration="7566000" />
+      <workItem from="1536458555669" duration="7569000" />
+      <workItem from="1536558340275" duration="596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9581000" />
+    <option name="totallyTimeSpent" value="10180000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1448" y="73" width="1456" height="886" extended-state="7" />
+    <frame x="-1448" y="73" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124641836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1260745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33022636" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33022636" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -291,6 +277,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -309,13 +296,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/xc/staticproxy/Rent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -351,6 +331,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/xc/staticproxy/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -367,23 +354,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/xc/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="598">
           <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/xc/service/UserServiceProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="138">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
