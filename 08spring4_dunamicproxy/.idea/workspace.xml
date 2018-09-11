@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0bd93b-579c-452b-a03b-c4551023402a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/08spring4_dunamicproxy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/src/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/src/cn/xc/log/AfterLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/src/cn/xc/log/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/src/cn/xc/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/src/cn/xc/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09spring4_aop1/src/cn/xc/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06spring4_autowiring/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06spring4_autowiring/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06spring4_autowiring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06spring4_autowiring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07spring4_staticproxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07spring4_staticproxy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09spring4_aop1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09spring4_aop1/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/xc/dynamicproxy/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,7 +160,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-1447" />
     <option name="y" value="81" />
     <option name="width" value="734" />
@@ -299,12 +281,12 @@
       <updated>1536482911304</updated>
       <workItem from="1536482914581" duration="3892000" />
       <workItem from="1536558341204" duration="766000" />
-      <workItem from="1536560529134" duration="1804000" />
+      <workItem from="1536560529134" duration="3129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6462000" />
+    <option name="totallyTimeSpent" value="7787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1448" y="73" width="1456" height="886" extended-state="6" />
@@ -345,18 +327,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/xc/dynamicproxy/Client.java</url>
-          <line>7</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/xc/service/UserServiceProxy.java" />
@@ -422,7 +392,7 @@
     <entry file="file://$PROJECT_DIR$/src/cn/xc/dynamicproxy/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
