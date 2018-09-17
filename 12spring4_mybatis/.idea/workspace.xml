@@ -2,27 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0bd93b-579c-452b-a03b-c4551023402a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/.idea/libraries/aspectjweaver_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/.idea/libraries/lib__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/.idea/libraries/lib__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/.idea/libraries/mybatis_3_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/08spring4_dunamicproxy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/out/production/08spring4_dunamicproxy/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/src/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/src/cn/xc/log/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/src/cn/xc/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/src/cn/xc/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12spring4_mybatis/src/cn/xc/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/aspectjweaver_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08spring4_dunamicproxy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/08spring4_dunamicproxy/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/xc/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/xc/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/xc/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/xc/vo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/xc/vo/user.mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mybatis.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02spring4_/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02spring4_/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02spring4_/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02spring4_/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02spring4_/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02spring4_/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02spring4_/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02spring4_/02spring4_.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02spring4_/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11spring4_aop3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11spring4_aop3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,11 +133,9 @@
     <session id="-357471993">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -156,14 +161,69 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1640618417">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="5" />
+          <entry key="mapper" value="1" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="5" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="843" />
+          <entry key="mapper" value="36" />
+          <entry key="xml" value="1110" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="843" />
+          <entry key="SQL" value="6" />
+          <entry key="XML" value="1140" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/xc/vo/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="253">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,29 +231,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/xc/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="248">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/xc/log/Log.java">
+        <entry file="file://$PROJECT_DIR$/src/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/xc/vo/user.mapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mybatis.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/xc/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,13 +280,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/xc/service/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/xc/dao/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="294">
+              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
                 <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -237,10 +324,17 @@
         <option value="$PROJECT_DIR$/src/cn/xc/dynamicproxy/ProxyInvocationHandler.java" />
         <option value="$PROJECT_DIR$/src/cn/xc/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/cn/xc/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/cn/xc/test/Test.java" />
         <option value="$PROJECT_DIR$/src/cn/xc/log/AfterLog.java" />
-        <option value="$PROJECT_DIR$/src/beans.xml" />
         <option value="$PROJECT_DIR$/src/cn/xc/log/Log.java" />
+        <option value="$PROJECT_DIR$/src/cn/xc/vo/user.mapper" />
+        <option value="$PROJECT_DIR$/src/cn/xc/dao/UserDaoImp.java" />
+        <option value="$PROJECT_DIR$/src/cn/xc/vo/User.java" />
+        <option value="$PROJECT_DIR$/src/mybatis.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/cn/xc/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/xc/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/cn/xc/vo/user.mapper.xml" />
+        <option value="$PROJECT_DIR$/src/cn/xc/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/beans.xml" />
       </list>
     </option>
   </component>
@@ -250,7 +344,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1129" />
     <option name="y" value="164" />
     <option name="width" value="1120" />
@@ -293,55 +387,64 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="11spring4_aop3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="11spring4_aop3" type="462c0819:PsiDirectoryNode" />
+              <item name="12spring4_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12spring4_mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="11spring4_aop3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="11spring4_aop3" type="462c0819:PsiDirectoryNode" />
+              <item name="12spring4_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12spring4_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="11spring4_aop3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="11spring4_aop3" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="11spring4_aop3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="11spring4_aop3" type="462c0819:PsiDirectoryNode" />
+              <item name="12spring4_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12spring4_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="11spring4_aop3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="11spring4_aop3" type="462c0819:PsiDirectoryNode" />
+              <item name="12spring4_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12spring4_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="xc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="11spring4_aop3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="11spring4_aop3" type="462c0819:PsiDirectoryNode" />
+              <item name="12spring4_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12spring4_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="xc" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="12spring4_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12spring4_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xc" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="12spring4_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12spring4_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xc" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536927716513" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537155517977" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../11spring4_aop3" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -353,11 +456,11 @@
       <recent name="cn.xc.dynamicproxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\java\spring" />
+      <recent name="D:\workspace\java\spring\12spring4_mybatis\lib" />
+      <recent name="D:\workspace\java\spring\12spring4_mybatis" />
       <recent name="D:\workspace\java\spring\11spring4_aop3\lib" />
       <recent name="D:\workspace\java\spring\09spring4_aop1\lib" />
       <recent name="D:\workspace\java\spring\09spring4_aop1\src\cn\xc" />
-      <recent name="D:\workspace\java\spring\09spring4_aop1\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -437,19 +540,19 @@
       <workItem from="1536753272153" duration="706000" />
       <workItem from="1536912470825" duration="427000" />
       <workItem from="1536913418813" duration="1702000" />
-      <workItem from="1537005407977" duration="640000" />
-      <workItem from="1537010935957" duration="152000" />
+      <workItem from="1537005407977" duration="618000" />
+      <workItem from="1537010664853" duration="12455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17388000" />
+    <option name="totallyTimeSpent" value="29669000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1129" y="164" width="1120" height="659" extended-state="0" />
+    <frame x="-1448" y="73" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24056605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18266475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -458,7 +561,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32756326" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32756326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39946738" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -480,7 +583,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17621776" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18266475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,7 +592,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32756326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32756326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39946738" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -564,20 +667,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/xc/test/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/xc/log/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="230">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -592,13 +690,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/xc/log/Log.java">
+    <entry file="file://$PROJECT_DIR$/../../mybatis/02mybatis_crud/src/cn/xc/entity/user.mapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="276">
+          <caret line="12" column="46" lean-forward="true" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08spring4_dunamicproxy.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../mybatis/02mybatis_crud/src/mybatis.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="38" lean-forward="true" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mybatis-spring-1.2.1.jar!/org/mybatis/spring/MyBatisExceptionTranslator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/xc/vo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/xc/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/xc/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/xc/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/xc/vo/user.mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -666,7 +865,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>aspectjweaver-1.9.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
